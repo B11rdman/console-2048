@@ -34,8 +34,6 @@ function checkWin(board) {
       }
     }
   }
-
-  return copy;
 }
 
 function getEmptyCell(arr2D) {
