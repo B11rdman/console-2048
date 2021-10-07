@@ -70,6 +70,7 @@ function initializeBoard() {
   for (let k = 0; k < 2; k++) {
     addNumber(board);
   }
+  console.table(board);
 }
 
 function combine(arr) {
